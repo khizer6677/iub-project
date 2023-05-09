@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+}
+
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    opacity: 0.5;
+}
+li{
+    margin-top: 20px;
+    padding-right: 30px;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    
+}
+li:hover{
+    color: black;
+}
+.Navbar{
+    display: flex;
+}
+.iub-img{
+    width: 60px;
+}
+.header-div{
+    margin: 12px;
+    display: flex;
+}
+.iub-heading{
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+.mid-heading{
+    color: gray;
+}
+.iub-logo{
+    width: 60px;
+}
+.body-div{
+    background-color: #617d98;
+    display: flex;
+    justify-content: end;
+    height: 590px;
+}
+.text-div{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.Software-iub{
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+}
+.iub-prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bcccdc;
+    
+}
+.iub-prof:hover{
+    transition: width 2s, height 4s;
+
+}
+.prof-1{
+    width: 350px;
+    padding: 20px;
+    border-radius: 7%;
+}
+.profs{
+    margin-left: 20px;
+    margin-top: -12px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.profs-0{
+    margin-left: 20px;
+    margin-top: -12px;
+  
+}
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: #35404f;
+    color: #878c94;
+}
+.footer .title{text-align: left;color:#fff;font-size:25px;}
+
+
+.footer .social-icon{padding:0px;margin:0px;}
+.footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+.footer .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+.footer .acount-icon .fa{margin-right:25px;}
+
+
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+
+.footer .payment{margin:0px;padding:0px;list-style-type:none}
+.footer .payment li{list-style-type:none}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
